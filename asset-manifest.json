@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/vds_puf_app/static/css/main.073c9b0a.css",
-    "main.js": "/vds_puf_app/static/js/main.e0192721.js",
+    "main.js": "/vds_puf_app/static/js/main.0f88953e.js",
     "static/js/787.8d07cc51.chunk.js": "/vds_puf_app/static/js/787.8d07cc51.chunk.js",
     "static/media/logo.svg": "/vds_puf_app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/vds_puf_app/index.html",
     "main.073c9b0a.css.map": "/vds_puf_app/static/css/main.073c9b0a.css.map",
-    "main.e0192721.js.map": "/vds_puf_app/static/js/main.e0192721.js.map",
+    "main.0f88953e.js.map": "/vds_puf_app/static/js/main.0f88953e.js.map",
     "787.8d07cc51.chunk.js.map": "/vds_puf_app/static/js/787.8d07cc51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e0192721.js"
+    "static/js/main.0f88953e.js"
   ]
 }
