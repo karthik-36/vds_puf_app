@@ -12,8 +12,6 @@ class Chart extends React.Component {
   constructor(props) {
     super(props);
     this.chartRef = React.createRef();
-    this.p = new PUF(10);
-    this.c = new Challenge([0,1,0,1]);
   }
 
   render() {
