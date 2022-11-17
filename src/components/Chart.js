@@ -39,7 +39,7 @@ class Chart extends React.Component {
 }
 
 Chart.propTypes = {
-  chartType: PropTypes.oneOf(Object.keys(ChartTypes)).isRequired,
+  chartType: PropTypes.oneOf(Object.values(ChartTypes)).isRequired,
   chartOptions: PropTypes.object.isRequired,
   chartData: PropTypes.array.isRequired
 };
