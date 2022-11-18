@@ -25,7 +25,7 @@ class Chart extends React.Component {
     let chart;
     switch(this.props.chartType) {
       case ChartTypes.BAR: {
-        chart = BarChart(this.props.chartOptions);
+        chart = BarChart(this.props.chartData, this.props.chartOptions);
       } break;
       case ChartTypes.HISTOGRAM: {
         chart = Histogram(this.props.chartData, this.props.chartOptions);
@@ -39,8 +39,9 @@ class Chart extends React.Component {
 }
 
 Chart.propTypes = {
-  chartType: PropTypes.oneOf(Object.keys(ChartTypes)).isRequired,
-  chartOptions: PropTypes.object.isRequired
+  chartType: PropTypes.oneOf(Object.values(ChartTypes)).isRequired,
+  chartOptions: PropTypes.object.isRequired,
+  chartData: PropTypes.array.isRequired
 };
 
 export default Chart;
